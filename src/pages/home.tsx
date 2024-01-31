@@ -2,7 +2,6 @@ import { Box} from '@mui/material'
 import { DataGrid, GridColDef } from '@mui/x-data-grid'
 import { Todo } from '../models/todo.model';
 import { TodoService } from '../services/todo.services';
-import { useEffect } from 'react';
 
 let todos: Todo[] = [];
 
@@ -22,10 +21,6 @@ const initData = async () => {
 initData();
 
 export default function Home() {
-
-  useEffect(() => {
-    
-  });
 
   return (
     <Box sx={{ height: 400, width: '100%' }}>

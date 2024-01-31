@@ -1,5 +1,5 @@
-import api from "../core/api_interceptor";
-import { ApiResponse } from "../models/response/api_response.model";
+import api from "../core/interceptor/api_interceptor";
+import { ApiResponse } from "../core/interceptor/api_response.model";
 import { Todo } from "../models/todo.model";
 
 export class TodoService {
